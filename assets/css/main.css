@@ -153,8 +153,8 @@ a{
 
 .btn-primary:hover{
     background-color: transparent;
-    color: var(--clr-dark);
-    border-color: var(--clr-grey);
+    color: var(--clr-blue);
+    border-color: var(--clr-blue-dark);
 }
 
 .btn-secondary{
@@ -204,6 +204,11 @@ a{
     margin-right: 6px;
     opacity: 0.8;
 }
+
+input:focus {
+    background-color: grey;
+}
+
 .brand-and-toggler{
     display: flex;
     align-items: center;
@@ -361,7 +366,7 @@ a{
     margin: 3rem 0;
 }
 .cv-form-row{
-    padding: 3rem 2rem 0 2rem;
+    padding: 1rem 1rem 0 1rem;
     border: 1px solid rgba(0, 0, 0, 0.08);
     margin-bottom: 1rem;
     position: relative;

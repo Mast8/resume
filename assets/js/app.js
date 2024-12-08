@@ -175,12 +175,17 @@ function removeErrMsg(formElem){
     formElem.nextElementSibling.innerHTML = "";
 }
 
+
+experiencesDsp.style.display = "none";
+educationsDsp.style.display = "none";
+
 // show the list data
 const showListData = (listData, listContainer) => {
     listContainer.innerHTML = "";
     listData.forEach(listItem => {
         let itemElem = document.createElement('div');
         itemElem.classList.add('preview-item');
+        experiencesDsp.style.display = "block";
         
         for(const key in listItem){
             let subItemElem = document.createElement('span');

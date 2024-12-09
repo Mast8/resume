@@ -112,8 +112,9 @@ a{
 
 .container{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 25px;
     padding: 0 1.6rem;
+
 }
 
 /* bars button */
@@ -347,6 +348,7 @@ input:focus {
 /* resume page */
 #about-sc{
     padding: 64px 0;
+    margin: 0 25px;
 }
 
 .cv-form-row-title{
@@ -561,6 +563,11 @@ textarea{
 }
 .projects-items.preview-blk-list .preview-item span{
     display: block;
+}
+
+.container-btn-print {
+    display: flex;
+    justify-content: center;
 }
 
 @media screen and (min-width: 768px){

@@ -176,8 +176,8 @@ function removeErrMsg(formElem){
 }
 
 
-experiencesDsp.style.display = "none";
-educationsDsp.style.display = "none";
+//experiencesDsp.style.display = "none";
+//educationsDsp.style.display = "none";
 
 // show the list data
 const showListData = (listData, listContainer) => {
@@ -185,7 +185,8 @@ const showListData = (listData, listContainer) => {
     listData.forEach(listItem => {
         let itemElem = document.createElement('div');
         itemElem.classList.add('preview-item');
-        experiencesDsp.style.display = "block";
+        
+        ///experiencesDsp.style.display = "block";
         
         for(const key in listItem){
             let subItemElem = document.createElement('span');

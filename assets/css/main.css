@@ -355,6 +355,7 @@ input:focus {
     background-color: var(--clr-dark);
     padding: 0.8rem 1.6rem;
     margin-bottom: 2rem;
+    border-radius: 5px;
 }
 
 .cv-form-row-title h3{

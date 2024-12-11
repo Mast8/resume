@@ -206,6 +206,10 @@ a{
     opacity: 0.8;
 }
 
+input {
+    border-radius: 10px;
+}
+
 input:focus {
     background-color: grey;
 }

@@ -136,7 +136,8 @@ const getUserInputs = () => {
 function validateFormData(elem, elemType, elemName){
     // checking for text string and non empty string
     if(elemType == validType.TEXT){
-        if(!strRegex.test(elem.value) || elem.value.trim().length == 0) addErrMsg(elem, elemName);
+        
+        if(!strRegex.test(elem.value) || elem.value.trim().length == 0 || elem.value.trim().length < 3) addErrMsg(elem, elemName);
         else removeErrMsg(elem);
     }
 
